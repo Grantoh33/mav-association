@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MAV association</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:opsz@6..12&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <header>   
+        <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">MAV Association</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item pe-5">
+                            <a href="index.html" aria-current="page" class="nav-link">Accueil</a>
+                        </li>
+                        <li class="nav-item pe-5">
+                            <a href="quisommesnous.html" class="nav-link">Qui sommes nous ?</a>
+                        </li>
+                        <li class="nav-item pe-5">
+                            <a href="contact.html" class="nav-link active">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>  
+    <main>
+        <div class="container-form">
+            <div class="mb-3">
+                <label for="prenom" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="prenom" placeholder="Votre prénom (obligatoire)"
+                    required>
+            </div>
+            <div class="mb-3">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Votre nom (obligatoire)" required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre adresse email (obligatoire)"
+                    required>
+            </div>
+            <div class="mb-3">
+                <label for="textmessage" class="form-label"> Message</label>
+                <textarea class="form-control" id="textmessage" rows="3"></textarea>
+            </div>
+            <input class="btn-form" type="submit" value="Envoyer le formulaire">
+        </div>
+        <div class="container-bandeau">
+            <img class="b-1" src="assets/canon.jpg" alt="Image d'un appareil photo">
+            <img class="b-2" src="assets/micro.jpg" alt="Photo d'un micro">
+            <img class="b-3" src="assets/table-mixage.jpg" alt="Photo d'un table de mixage">
+            <img class="b-4" src="assets/table-mixage2.jpg" alt="Photo d'un table de mixage">
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <h5>MAV association</h5>
+            <p><a href="#">Mentions légales</a></p>
+            <p><a href="#">Politique de confidentialité et cookies</a></p>
+            <p><a href="#">Conditions Génèrales d'Utilisation</a></p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>  
