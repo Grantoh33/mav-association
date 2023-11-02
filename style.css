@@ -81,6 +81,10 @@ body{
     border-radius: 3px;
  }
 
+ .p-aside{
+  width: 50%;
+ }
+
  aside{
     text-align: center;
     border: 1px solid #ccc;
@@ -286,7 +290,7 @@ body{
     justify-content: space-around;
     margin-left: 0%;
   }
-  
+
   article{
     align-items: center;
     text-align: justify;
