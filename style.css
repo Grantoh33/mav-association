@@ -303,7 +303,6 @@ body{
  }
 
  aside{
-    text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 30%;
@@ -311,7 +310,9 @@ body{
 
  .p-aside{
   text-align: justify;
-  margin-left: 80px;
+  margin: 2%;
+  margin-left: 50px;
+  width: 50%;
  }
 
  /*Qui sommes nous ?*/
